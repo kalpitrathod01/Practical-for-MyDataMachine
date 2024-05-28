@@ -1,0 +1,48 @@
+PODS:
+  - Alamofire (4.9.1)
+  - GoogleMaps (6.1.1):
+    - GoogleMaps/Maps (= 6.1.1)
+  - GoogleMaps/Base (6.1.1)
+  - GoogleMaps/Maps (6.1.1):
+    - GoogleMaps/Base
+  - IQKeyboardManagerSwift (6.5.9)
+  - KRActivityIndicatorView (3.0.7)
+  - KRProgressHUD (3.4.7):
+    - KRActivityIndicatorView (= 3.0.7)
+  - ObjectMapper (4.2.0)
+  - SwiftyJSON (5.0.1)
+  - TTSegmentedControl (0.4.10)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.0)
+  - GoogleMaps
+  - IQKeyboardManagerSwift
+  - KRProgressHUD
+  - ObjectMapper
+  - SwiftyJSON
+  - TTSegmentedControl
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - GoogleMaps
+    - IQKeyboardManagerSwift
+    - KRActivityIndicatorView
+    - KRProgressHUD
+    - ObjectMapper
+    - SwiftyJSON
+    - TTSegmentedControl
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  GoogleMaps: 94e6e0851beece6678af9f508f4918b7a7c61722
+  IQKeyboardManagerSwift: 6e839c575c4aa1078d58a596e41244e77abe918f
+  KRActivityIndicatorView: ad69e89c4ce40c986cf580595be4829dcad0e35a
+  KRProgressHUD: a248f0bc6c9c2aed40a37b76e03ffecc7f85c887
+  ObjectMapper: 1eb41f610210777375fa806bf161dc39fb832b81
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+  TTSegmentedControl: d8005c0cdca2549ade0aee8e09240723e2478a6a
+
+PODFILE CHECKSUM: cea13105d2b45a456f072328cdebf947eb72b358
+
+COCOAPODS: 1.11.2
