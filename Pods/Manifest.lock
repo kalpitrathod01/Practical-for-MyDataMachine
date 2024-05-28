@@ -1,11 +1,11 @@
 PODS:
   - Alamofire (4.9.1)
-  - GoogleMaps (6.1.1):
-    - GoogleMaps/Maps (= 6.1.1)
-  - GoogleMaps/Base (6.1.1)
-  - GoogleMaps/Maps (6.1.1):
+  - GoogleMaps (8.1.0):
+    - GoogleMaps/Maps (= 8.1.0)
+  - GoogleMaps/Base (8.1.0)
+  - GoogleMaps/Maps (8.1.0):
     - GoogleMaps/Base
-  - IQKeyboardManagerSwift (6.5.9)
+  - IQKeyboardManagerSwift (6.5.12)
   - KRActivityIndicatorView (3.0.7)
   - KRProgressHUD (3.4.7):
     - KRActivityIndicatorView (= 3.0.7)
@@ -35,8 +35,8 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
-  GoogleMaps: 94e6e0851beece6678af9f508f4918b7a7c61722
-  IQKeyboardManagerSwift: 6e839c575c4aa1078d58a596e41244e77abe918f
+  GoogleMaps: 97300a4b89a3641563782c52228c4530f5fe0d89
+  IQKeyboardManagerSwift: 371b08cb39664fb56030f5345c815a4ffc74bbc0
   KRActivityIndicatorView: ad69e89c4ce40c986cf580595be4829dcad0e35a
   KRProgressHUD: a248f0bc6c9c2aed40a37b76e03ffecc7f85c887
   ObjectMapper: 1eb41f610210777375fa806bf161dc39fb832b81
@@ -45,4 +45,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: cea13105d2b45a456f072328cdebf947eb72b358
 
-COCOAPODS: 1.11.2
+COCOAPODS: 1.12.0

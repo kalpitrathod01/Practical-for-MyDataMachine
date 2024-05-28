@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="RU5-m7-m2m">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="RU5-m7-m2m">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -29,7 +30,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9hn-oH-mfg" customClass="TTSegmentedControl" customModule="TTSegmentedControl">
-                                <rect key="frame" x="20" y="54" width="374" height="40"/>
+                                <rect key="frame" x="20" y="58" width="374" height="40"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="OCI-Up-opn"/>
@@ -48,7 +49,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="x3d-Nd-8af">
-                                <rect key="frame" x="10" y="104" width="394" height="748"/>
+                                <rect key="frame" x="10" y="108" width="394" height="744"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </tableView>
                         </subviews>
@@ -89,7 +90,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pM2-fm-cxF">
-                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <rect key="frame" x="0.0" y="48" width="414" height="814"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Df2-bN-cih">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1037.5"/>
@@ -507,7 +508,7 @@
                     <connections>
                         <outlet property="imgUser" destination="lTj-V5-ja6" id="Jaa-Ul-zk3"/>
                         <outlet property="lblUserName" destination="gZc-YC-vxK" id="3d1-tU-PHD"/>
-                        <outlet property="map_view" destination="WZY-6h-wIz" id="7iv-Sj-KkQ"/>
+                        <outlet property="map_view" destination="WZY-6h-wIz" id="hCN-I0-2qZ"/>
                         <outlet property="txtFldAdress" destination="L9T-zE-Hpx" id="QKv-bG-o4O"/>
                         <outlet property="txtFldCompny" destination="ZpN-Vs-KMl" id="1NU-lr-xhV"/>
                         <outlet property="txtFldEmail" destination="x52-dq-uiy" id="rmd-fS-Yty"/>
